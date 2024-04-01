@@ -4,6 +4,7 @@ set title=%Operações%
 
 title %title%
 
+:inicio
 set /p num1=Digite o primeiro numero: 
 set /p num2=Digite o segundo numero: 
 echo.

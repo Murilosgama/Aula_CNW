@@ -5,7 +5,7 @@ set title=%Menu%
 
 title %title%
 
-:interface
+:inicio
 cls
 echo: 
 echo                            ===============================================================
@@ -13,10 +13,10 @@ echo                            =                                               
 echo                            =                      ESCOLHA DE MENU                        =
 echo                            =                                                             =
 echo                            =           1)Calculadora 2)Bloco de Notas 3)Sair             =
-echo                            =                                                             =
+echo                            =                   4)Minha Calculadora                       =
 echo                            =                                                             =
 echo                            =============================================================== 
-choice /c "123" /n /m "Escolha uma opcao:"
+choice /c "1234" /n /m "Escolha uma opcao:"
 goto %errorlevel%
 
 :1 start
