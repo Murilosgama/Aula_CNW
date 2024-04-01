@@ -1,6 +1,10 @@
 @echo off
 color 06
 
+set title=%Menu%
+
+title %title%
+
 :interface
 cls
 echo: 
