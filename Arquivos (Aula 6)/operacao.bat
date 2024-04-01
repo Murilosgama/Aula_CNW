@@ -17,20 +17,32 @@ set /a adi=%num1%+%num2%
 
 echo O resultado da adicao de %num1% + %num2% = %adi%
 
+pause >nul
+goto inicio
+
 :2 start
 set /a sub=%num1%-%num2%
 
 echo O resultado da subtracao de %num1% - %num2% = %sub%
+
+pause >nul
+goto inicio
 
 :3 start
 set /a mult=%num1%*%num2%
 
 echo O resultado da multiplicacao de %num1% x %num2% = %mult%
 
+pause >nul
+goto inicio
+
 :4 start
 set /a div=%num1%/%num2%
 
 echo O resultado da divisao de %num1% : %num2% = %div%
+
+pause >nul
+goto inicio
 
 :5 start
 set /a mod=%num1%%%%num2%
@@ -38,3 +50,4 @@ set /a mod=%num1%%%%num2%
 echo O modulo da divisao de %num1% : %num2% = %mod%
 
 pause >nul
+goto inicio
